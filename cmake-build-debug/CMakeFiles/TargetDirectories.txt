@@ -1,0 +1,8 @@
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/main.dir
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/CMakeFiles/edit_cache.dir
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/CMakeFiles/rebuild_cache.dir
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/plotTrajectory/CMakeFiles/plotTrajectory.dir
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/plotTrajectory/CMakeFiles/edit_cache.dir
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/plotTrajectory/CMakeFiles/rebuild_cache.dir

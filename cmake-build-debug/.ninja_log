@@ -1,0 +1,20 @@
+# ninja log v5
+313	369	1689231200387491292	hello_cmake	490f7905193a54b3
+1	2640	1689227360029624791	CMakeFiles/exec_module1.dir/examples/exec_module1.cpp.o	7d06232452e05d80
+3400	3555	1689234076476501625	examples/plotTrajectory	e3639f14a5086815
+16	1814	1689227374233502151	CMakeFiles/exec_module1_module2.dir/examples/exec_module1_module2.cpp.o	affe94d39c11b6c9
+5614	5627	1689231920676499922	modules/module3/libmodule3.a	d23cad109db04b83
+773	779	1689227373201222957	modules/module2/libmodule2.a	e6910e3c02bb3ccd
+2718	2731	1689227360121650160	modules/module1/libmodule1.a	e3444c631401a896
+2999	3231	1689241884910389641	main	24e613256e8a0c32
+20	772	1689227373193220792	modules/module2/CMakeFiles/module2.dir/src/ClassEigenMat.cpp.o	544ecb9327e1c342
+5	2718	1689227360109646851	modules/module1/CMakeFiles/module1.dir/src/ClassMat.cpp.o	6f7c4b713d3ca3ea
+1	312	1689231200331490316	CMakeFiles/hello_cmake.dir/main.cpp.o	f4eda89062c297d
+30	3275	1689232185142978086	CMakeFiles/plotTrajectory.dir/examples/plotTrajectory.cpp.o	1145a9c3914c2eea
+1	102	1689244708284250969	build.ninja	773ec378533d722f
+3	3399	1689234076316494649	examples/CMakeFiles/plotTrajectory.dir/plotTrajectory.cpp.o	3be2ee2f9a51c07b
+3275	3583	1689232185454921549	plotTrajectory	7661def601d7eb5b
+2731	2861	1689227360253686560	exec_module1	8de55b6d27d7a568
+1814	1901	1689227374321525934	exec_module1_module2	895794b46b76483b
+1	5614	1689231920664499355	modules/module3/CMakeFiles/module3.dir/src/ClassPangolinMat.cpp.o	cfe4b07bea3e9311
+4	2999	1689241884678380920	CMakeFiles/main.dir/plotTrajectory.cpp.o	52203f714e965744
