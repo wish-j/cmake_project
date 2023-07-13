@@ -1,0 +1,144 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "cmake-build-debug/CMakeFiles/3.26.4/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/Platform/Linux.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/Platform/UnixPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/Compiler/GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/Compiler/GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/Platform/Linux-GNU-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/Platform/Linux-GNU.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"path" : "modules/CMakeLists.txt"
+		},
+		{
+			"path" : "modules/module1/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake"
+		},
+		{
+			"path" : "modules/module2/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/cmake/eigen3/Eigen3Config.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "/usr/lib/cmake/eigen3/Eigen3Targets.cmake"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug",
+		"source" : "/home/wish/catkin_ws/src/hello_cmake"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

@@ -1,0 +1,9 @@
+# ninja log v5
+1	2640	1689227360029624791	CMakeFiles/exec_module1.dir/examples/exec_module1.cpp.o	7d06232452e05d80
+5	2718	1689227360109646851	modules/module1/CMakeFiles/module1.dir/src/ClassMat.cpp.o	6f7c4b713d3ca3ea
+2718	2731	1689227360121650160	modules/module1/libmodule1.a	e3444c631401a896
+2731	2861	1689227360253686560	exec_module1	8de55b6d27d7a568
+20	772	1689227373193220792	modules/module2/CMakeFiles/module2.dir/src/ClassEigenMat.cpp.o	544ecb9327e1c342
+773	779	1689227373201222957	modules/module2/libmodule2.a	e6910e3c02bb3ccd
+16	1814	1689227374233502151	CMakeFiles/exec_module1_module2.dir/examples/exec_module1_module2.cpp.o	affe94d39c11b6c9
+1814	1901	1689227374321525934	exec_module1_module2	895794b46b76483b

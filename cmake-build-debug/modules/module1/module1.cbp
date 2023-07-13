@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="module1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\modules\;CMake Files\modules\module1\;CMake Files\modules\module2\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\usr\lib\aarch64-linux-gnu\;CMake Files\..\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\;CMake Files\..\..\..\..\..\usr\lib\cmake\;CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module1">
+				<Option output="/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/libmodule1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wish/catkin_ws/src/hello_cmake/modules/module1/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 module1"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="module1/fast">
+				<Option output="/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/libmodule1.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/wish/catkin_ws/src/hello_cmake/modules/module1/include"/>
+					<Add directory="/usr/include/opencv4"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/aarch64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/aarch64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/aarch64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 module1/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/modules/module1/src/ClassMat.cpp">
+			<Option target="module1"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/modules/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/modules/module1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\module1\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/modules/module2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\modules\module2\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/../../../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/../../../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/../../../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/../../../../../usr/lib/aarch64-linux-gnu/cmake/opencv4/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\aarch64-linux-gnu\cmake\opencv4\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/../../../../../usr/lib/cmake/eigen3/Eigen3Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/../../../../../usr/lib/cmake/eigen3/Eigen3ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+		<Unit filename="/home/wish/catkin_ws/src/hello_cmake/../../../../../usr/lib/cmake/eigen3/Eigen3Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\usr\lib\cmake\eigen3\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
