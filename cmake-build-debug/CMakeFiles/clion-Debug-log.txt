@@ -1,6 +1,6 @@
 /home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/ninja/linux/aarch64/ninja -G Ninja -S /home/wish/catkin_ws/src/hello_cmake -B /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug
 -- Pangolin Found! - /home/wish/catkin_ws/src/hello_cmake/thirdparty/pangolin/build
 -- Eigen3 Found! - /usr/lib/cmake/eigen3
--- Configuring done (0.1s)
+-- Configuring done (0.0s)
 -- Generating done (0.0s)
 -- Build files have been written to: /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug
