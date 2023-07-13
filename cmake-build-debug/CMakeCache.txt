@@ -192,6 +192,9 @@ Eigen3_DIR:PATH=/usr/lib/cmake/eigen3
 //The directory containing a CMake configuration file for OpenCV.
 OpenCV_DIR:PATH=/usr/lib/aarch64-linux-gnu/cmake/opencv4
 
+//The directory containing a CMake configuration file for Pangolin.
+Pangolin_DIR:PATH=/home/wish/catkin_ws/src/hello_cmake/thirdparty/pangolin/build
+
 //Value Computed by CMake
 hello_cmake_BINARY_DIR:STATIC=/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug
 
@@ -221,6 +224,18 @@ module2_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 module2_SOURCE_DIR:STATIC=/home/wish/catkin_ws/src/hello_cmake/modules/module2
+
+//Value Computed by CMake
+module3_BINARY_DIR:STATIC=/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module3
+
+//Value Computed by CMake
+module3_IS_TOP_LEVEL:STATIC=OFF
+
+//Dependencies for the target
+module3_LIB_DEPENDS:STATIC=general;pango_core;general;pango_display;general;pango_geometry;general;pango_glgeometry;general;pango_image;general;pango_opengl;general;pango_packetstream;general;pango_plot;general;pango_python;general;pango_scene;general;pango_tools;general;pango_vars;general;pango_video;general;pango_windowing;general;tinyobj;
+
+//Value Computed by CMake
+module3_SOURCE_DIR:STATIC=/home/wish/catkin_ws/src/hello_cmake/modules/module3
 
 
 ########################
@@ -287,6 +302,12 @@ CMAKE_GENERATOR_INSTANCE:INTERNAL=
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
+//Test CMAKE_HAVE_LIBC_PTHREAD
+CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=
+//Have library pthreads
+CMAKE_HAVE_PTHREADS_CREATE:INTERNAL=
+//Have library pthread
+CMAKE_HAVE_PTHREAD_CREATE:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
 CMAKE_HOME_DIRECTORY:INTERNAL=/home/wish/catkin_ws/src/hello_cmake
@@ -307,7 +328,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -352,6 +373,8 @@ CMAKE_UNAME:INTERNAL=/usr/bin/uname
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
 //Details about finding OpenCV
 FIND_PACKAGE_MESSAGE_DETAILS_OpenCV:INTERNAL=[/usr][v4.2.0()]
+//Details about finding Threads
+FIND_PACKAGE_MESSAGE_DETAILS_Threads:INTERNAL=[TRUE][v()]
 //linker supports push/pop state
 _CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED:INTERNAL=TRUE
 

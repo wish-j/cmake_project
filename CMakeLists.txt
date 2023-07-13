@@ -4,26 +4,28 @@ project(hello_cmake LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-add_subdirectory(modules)
+#add_subdirectory(modules)
+add_subdirectory(examples)
 
-add_executable(hello_cmake main.cpp)
+#add_executable(hello_cmake main.cpp)
 
 # examples/exec_module1.cpp 를 실행하는 코드
-add_executable(exec_module1
-        examples/exec_module1.cpp
-        )
+#add_executable(exec_module1
+#        examples/exec_module1.cpp
+#        )
+#
+## exec_module1에 library를 링크
+#target_link_libraries(exec_module1 PUBLIC
+#        module1
+#        )
+#
+#add_executable(exec_module1_module2 examples/exec_module1_module2.cpp)
+#
+#target_link_libraries(exec_module1_module2 PUBLIC
+#        module1
+#        module2
+#        )
 
-# exec_module1에 library를 링크
-target_link_libraries(exec_module1 PUBLIC
-        module1
-        )
-
-add_executable(exec_module1_module2 examples/exec_module1_module2.cpp)
-
-target_link_libraries(exec_module1_module2 PUBLIC
-        module1
-        module2
-        )
 
 ## Compile as C++11, supported in ROS Kinetic and newer
 # add_compile_options(-std=c++11)

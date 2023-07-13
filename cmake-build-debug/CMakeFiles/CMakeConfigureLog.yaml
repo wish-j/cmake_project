@@ -256,3 +256,100 @@ events:
       
       
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CheckCXXSourceCompiles.cmake:76 (cmake_check_source_compiles)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/FindThreads.cmake:99 (CHECK_CXX_SOURCE_COMPILES)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "thirdparty/pangolin/build/PangolinConfig.cmake:17 (find_dependency)"
+      - "modules/module3/CMakeLists.txt:15 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xzAP8h"
+      binary: "/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xzAP8h"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xzAP8h
+        
+        Run Build Command(s):/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/ninja/linux/aarch64/ninja -v cmTC_15b7f && [1/2] /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_15b7f.dir/src.cxx.o -c /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xzAP8h/src.cxx
+        [2/2] : && /usr/bin/c++  -rdynamic CMakeFiles/cmTC_15b7f.dir/src.cxx.o -o cmTC_15b7f   && :
+        \x1b[31mFAILED: \x1b[0mcmTC_15b7f 
+        : && /usr/bin/c++  -rdynamic CMakeFiles/cmTC_15b7f.dir/src.cxx.o -o cmTC_15b7f   && :
+        /usr/bin/ld: CMakeFiles/cmTC_15b7f.dir/src.cxx.o: in function `main':
+        src.cxx:(.text+0x48): undefined reference to `pthread_create'
+        /usr/bin/ld: src.cxx:(.text+0x50): undefined reference to `pthread_detach'
+        /usr/bin/ld: src.cxx:(.text+0x58): undefined reference to `pthread_cancel'
+        /usr/bin/ld: src.cxx:(.text+0x64): undefined reference to `pthread_join'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "thirdparty/pangolin/build/PangolinConfig.cmake:17 (find_dependency)"
+      - "modules/module3/CMakeLists.txt:15 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VduDfk"
+      binary: "/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VduDfk"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VduDfk
+        
+        Run Build Command(s):/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/ninja/linux/aarch64/ninja -v cmTC_1d8d7 && [1/2] /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_1d8d7.dir/CheckFunctionExists.cxx.o -c /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-VduDfk/CheckFunctionExists.cxx
+        [2/2] : && /usr/bin/c++ -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_1d8d7.dir/CheckFunctionExists.cxx.o -o cmTC_1d8d7  -lpthreads && :
+        \x1b[31mFAILED: \x1b[0mcmTC_1d8d7 
+        : && /usr/bin/c++ -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_1d8d7.dir/CheckFunctionExists.cxx.o -o cmTC_1d8d7  -lpthreads && :
+        /usr/bin/ld: cannot find -lpthreads
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CheckLibraryExists.cmake:71 (try_compile)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/cmake/linux/aarch64/share/cmake-3.26/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "thirdparty/pangolin/build/PangolinConfig.cmake:17 (find_dependency)"
+      - "modules/module3/CMakeLists.txt:15 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WcyK3g"
+      binary: "/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WcyK3g"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WcyK3g
+        
+        Run Build Command(s):/home/wish/.cache/JetBrains/RemoteDev/dist/518c5cdd3e2fa_CLion-232.8660.8-aarch64/bin/ninja/linux/aarch64/ninja -v cmTC_bd0d8 && [1/2] /usr/bin/c++   -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_bd0d8.dir/CheckFunctionExists.cxx.o -c /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-WcyK3g/CheckFunctionExists.cxx
+        [2/2] : && /usr/bin/c++ -DCHECK_FUNCTION_EXISTS=pthread_create -rdynamic CMakeFiles/cmTC_bd0d8.dir/CheckFunctionExists.cxx.o -o cmTC_bd0d8  -lpthread && :
+        
+      exitCode: 0
+...

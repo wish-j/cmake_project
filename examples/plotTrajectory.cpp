@@ -1,7 +1,8 @@
-// #include <pangolin/pangolin.h>
 #include <unistd.h>
 
 #include "Eigen/Core"
+#include "pangolin/pangolin.h"
+
 
 
 // 本例演示了如何画出一个预先存储的轨迹
@@ -10,7 +11,7 @@ using namespace std;
 using namespace Eigen;
 
 // path to trajectory file
-string trajectory_file = "./examples/trajectory.txt";
+string trajectory_file = "/home/wish/catkin_ws/src/hello_cmake/examples/trajectory.txt";
 
 void DrawTrajectory(vector<Isometry3d, Eigen::aligned_allocator<Isometry3d>>);
 

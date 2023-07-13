@@ -46,6 +46,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module1/cmake_install.cmake")
   include("/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module2/cmake_install.cmake")
+  include("/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/modules/module3/cmake_install.cmake")
 
 endif()
 
