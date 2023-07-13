@@ -1,5 +1,4 @@
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/main.dir
+/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/coordinateTransform.dir
 /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/edit_cache.dir
 /home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/examples/CMakeFiles/plotTrajectory.dir
-/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/examples/CMakeFiles/edit_cache.dir
-/home/wish/catkin_ws/src/hello_cmake/cmake-build-debug/examples/CMakeFiles/rebuild_cache.dir
