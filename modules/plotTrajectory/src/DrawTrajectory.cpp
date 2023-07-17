@@ -1,7 +1,7 @@
 #include "plotTrajectory/DrawTrajectory.hpp"
 
 
-void DrawTrajectory(std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>> poses) {
+void DrawTrajectory(const std::vector<Eigen::Isometry3d, Eigen::aligned_allocator<Eigen::Isometry3d>>& poses) {
     // create pangolin window and plot the trajectory
     pangolin::CreateWindowAndBind("Trajectory Viewer", 1024, 768); // create window & set parameters
     glEnable(GL_DEPTH_TEST);
